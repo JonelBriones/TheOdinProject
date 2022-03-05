@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: auto;
+    /* margin: auto; */
+    
+}
+.header-nav-container {
+    background-color: #1F2937;
+    padding: 10px 50px;
+}
+header {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+header h1 {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+header nav a {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.section-container {
+    height: 200px;
+    padding: 40px 0px;
+}
+.section-1 {
+    display: flex;
+}
+.section-1 h1{
+    color:#F9FAF8;
+    font-size: 48px;
+}
+.section-1 p{
+    color:#E5E7EB;
+    font-size: 18px;
+}
+.section-1-hero, .section-1-img {
+    flex: 1;
+}
+
+.section-1-img img {
+    width: 100%;
+    height: 190px;
+    object-fit: fill;
+}
+.btn {
+    background-color: #3882F6;
+    border: 0px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+.section-2-container {
+    background-color: #F9FAF8;
+}
+.section-2 p {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-2-img {
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-2-img img {
+    border: 2px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.section-container-3 {
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    align-items: center;
+    padding: 50px;
+    font-size: 20px;
+}
+.quote-by {
+    font-weight: bold;
+    text-align:right;
+}
+.section-container-4 {
+    background-color: #F9FAF8;
+}
+
+.section-4 {
+    padding: 40px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    margin: 40px;
+    justify-content: space-evenly;
+}
+
+.section-4 .btn {
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    justify-content: center;
+}
+footer {
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 10px;
+    font-size: 12px;
+}
+
+
+
+
+
